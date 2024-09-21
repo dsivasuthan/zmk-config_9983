@@ -70,11 +70,11 @@
         default_layer {
             bindings = <
 &mkp LCLK   &mkp RCLK
-&kp TAB     &kp LGUI   &mkp LCLK  &mt ESC K_BACK  &kp UP_ARROW
-&mt HASH Q  &kp W      &kp E      &kp R           &kp T         &kp Y        &kp U    &kp I      &kp O     &kp P
-&kp A       &kp S      &kp D      &kp F           &kp G         &kp H        &kp J    &kp K      &kp L     &kp BSPC
-&kp LSHFT   &kp Z      &kp X      &kp C           &kp V         &kp B        &kp N    &kp M      &kp SEMI  &kp ENTER
-                       &kp LCTRL                  &kp LALT      &kp SPACE    &to SYM  &to UPPER
+&kp TAB     &kp LGUI        &mkp LCLK  &mt ESC K_BACK  &kp UP_ARROW
+&mt HASH Q  &mt NUMBER_1 W  &kp E      &kp R           &kp T         &kp Y        &kp U    &kp I      &kp O     &kp P
+&kp A       &kp S           &kp D      &kp F           &kp G         &kp H        &kp J    &kp K      &kp L     &kp BSPC
+&kp LSHFT   &kp Z           &kp X      &kp C           &kp V         &kp B        &kp N    &kp M      &kp SEMI  &kp ENTER
+                            &kp LCTRL                  &kp LALT      &kp SPACE    &to SYM  &to UPPER
             >;
         };
 
