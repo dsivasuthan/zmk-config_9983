@@ -69,12 +69,12 @@
 
         default_layer {
             bindings = <
-&mkp LCLK   &mkp RCLK
-&kp TAB     &kp LGUI        &mkp LCLK       &mt ESC K_BACK  &kp UP_ARROW
-&mt HASH Q  &mt NUMBER_1 W  &mt NUMBER_2 E  &mt NUMBER_3 R  &mt LEFT_PARENTHESIS T  &mt Y Y      &mt U U  &mt I I    &mt O O   &kp P
-&mt A A     &mt S S         &mt D D         &mt F F         &mt G G                 &mt H H      &mt J J  &mt K K    &mt L L   &kp BSPC
-&kp LSHFT   &mt Z Z         &mt X X         &mt C C         &mt V V                 &mt B B      &mt N N  &mt M M    &mt SEMI  &kp ENTER
-                            &kp LCTRL                       &kp LALT                &kp SPACE    &to SYM  &to UPPER
+&mkp LCLK       &mkp RCLK
+&kp TAB         &kp LGUI        &mkp LCLK       &mt ESC K_BACK  &kp UP_ARROW
+&mt HASH Q      &mt NUMBER_1 W  &mt NUMBER_2 E  &mt NUMBER_3 R  &mt LEFT_PARENTHESIS T  &mt RIGHT_PARENTHESIS Y    &mt UNDERSCORE U  &mt MINUS I         &mt PLUS O           &mt AT_SIGN P
+&mt ASTERISK A  &mt NUMBER_4 S  &mt N5 D        &mt NUMBER_6 F  &mt SLASH G             &mt COLON H                &mt SEMICOLON J   &mt SINGLE_QUOTE K  &mt DOUBLE_QUOTES L  &kp BSPC
+&kp LSHFT       &mt N7 Z        &mt N8 X        &mt N9 C        &mt QMARK V             &mt EXCLAMATION B          &mt COMMA N       &mt M PERIOD        &mt SEMI DOLLAR      &kp ENTER
+                                &kp LCTRL                       &kp LALT                &kp SPACE                  &to SYM           &to UPPER
             >;
         };
 
